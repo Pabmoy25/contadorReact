@@ -1,12 +1,14 @@
 import React from "react";
 
-const Informacion = (props) => {
+/* const Informacion = (props) => */
+
+const Informacion = ({comision, anioActualProps}) => {
   //Aqui va la logica del componente
 
   return (
     //Aqui puede ir un poco de logica
     <>
-      <h2>Conseptos de react {props.comision} </h2>
+      <h2>Conseptos de react {comision} </h2>
       <section>
         {/* Aqui va todo el maquetado del componente */}
 
@@ -16,7 +18,7 @@ const Informacion = (props) => {
           aut magnam molestiae numquam iure illum sunt eaque esse veritatis
           explicabo incidunt excepturi quae quis eius, impedit doloribus ipsa at
           officia beatae. Ut excepturi nihil expedita illo labore hic
-          consequatur deserunt quia! <br /> comision: {props.anioActualProps} 
+          consequatur deserunt quia! <br /> comision: {anioActualProps} 
         </p>
       </section>
     </>
